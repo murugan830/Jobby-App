@@ -1,0 +1,151 @@
+.job-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #2c364c;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-right: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-card-container {
+    padding: 20px;
+  }
+}
+
+.company-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.company-logo {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 15vh;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.star-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #fbbf24;
+}
+
+.rating {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.salary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.location-employee-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-icon {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.location {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 450;
+  color: #ffffff;
+}
+.employmentType-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.suitcase-icon {
+  font-size: 23px;
+  color: #ffffff;
+  padding-right: 1px;
+}
+
+.employmentType {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 450;
+  color: #ffffff;
+}
+
+.package {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 450;
+  color: #ffffff;
+}
+
+.separator {
+  width: 100%;
+  color: #ffffff;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.description-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.description-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}

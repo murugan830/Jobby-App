@@ -1,0 +1,82 @@
+.employee-salary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+.employmentTypes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  height: 145px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 28px;
+}
+
+.employmentTypes-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.employmentTypes-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  width: 100%;
+  margin-right: 200px;
+}
+
+.employmentTypes-list {
+  width: 100%;
+  padding: 3px;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.salaryRange-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  height: 150px;
+  padding-left: 15px;
+  padding-bottom: 50px;
+  margin-bottom: 25px;
+}
+
+.salaryRange-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.salaryRange-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  height: 100px;
+  width: 70%;
+  margin-right: 200px;
+  margin-bottom: 70px;
+}
+
+.salaryRange-list {
+  width: 100%;
+  padding: 3px;
+}

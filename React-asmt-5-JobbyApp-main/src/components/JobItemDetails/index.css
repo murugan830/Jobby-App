@@ -1,0 +1,235 @@
+.job-item-details-container {
+  background-color: #000000;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.job-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #2c364c;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-right: 40px;
+}
+@media screen and (min-width: 768px) {
+  .job-item-container {
+    width: 85%;
+    margin-top: 40px;
+    padding: 30px;
+  }
+}
+
+.visit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.visit-heading {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.skills-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 450;
+  color: #ffffff;
+}
+
+.skills-lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-lists {
+    width: 60%;
+  }
+}
+
+.skills-list-item {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+
+.skills-image {
+  height: 40px;
+  padding-right: 10px;
+}
+
+.skills-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.skills-list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.life-at-company-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 450;
+  color: #ffffff;
+}
+
+.life-at-company-description-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-description-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.life-at-company-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .life-at-company-description {
+    font-size: 18px;
+    padding-right: 20px;
+  }
+}
+
+.life-at-company-image {
+  width: 100%;
+}
+
+.loader-job-item-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.similar-job-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 450;
+  color: #ffffff;
+}
+
+/* .similar-jobs-container-lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+} */
+
+.similar-jobs-container-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .similar-jobs-container-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .similar-job-heading {
+    font-size: 25px;
+  }
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.failure-view {
+  width: 100%;
+}
+.failure-view-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+.failure-view-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.retry-btn {
+  height: 40px;
+  width: 70px;
+  background-color: #6366f1;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
